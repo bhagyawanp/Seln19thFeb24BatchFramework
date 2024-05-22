@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-17T10:15:02 IST" name="Suite" finished-at="2024-05-17T10:15:24 IST" duration-ms="21898">
+    <groups>
+    </groups>
+    <test started-at="2024-05-17T10:15:02 IST" name="Test" finished-at="2024-05-17T10:15:24 IST" duration-ms="21898">
+      <class name="testcases.loginTestCases">
+        <test-method is-config="true" signature="browserAndurlLaunch()[pri:0, instance:testcases.loginTestCases@53045c6c]" started-at="2024-05-17T10:15:13 IST" name="browserAndurlLaunch" finished-at="2024-05-17T10:15:17 IST" duration-ms="4084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAndurlLaunch -->
+        <test-method signature="verifyLoginWithInValidData()[pri:0, instance:testcases.loginTestCases@53045c6c]" started-at="2024-05-17T10:15:17 IST" name="verifyLoginWithInValidData" finished-at="2024-05-17T10:15:18 IST" duration-ms="1186" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at resources.commonMethods.handleAssertion(commonMethods.java:17)
+at testcases.loginTestCases.verifyLoginWithInValidData(loginTestCases.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidData -->
+        <test-method is-config="true" signature="browserAndurlLaunch()[pri:0, instance:testcases.loginTestCases@53045c6c]" started-at="2024-05-17T10:15:18 IST" name="browserAndurlLaunch" finished-at="2024-05-17T10:15:23 IST" duration-ms="4306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAndurlLaunch -->
+        <test-method signature="verifyLoginWithValidData()[pri:0, instance:testcases.loginTestCases@53045c6c]" started-at="2024-05-17T10:15:23 IST" name="verifyLoginWithValidData" finished-at="2024-05-17T10:15:24 IST" duration-ms="1605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidData -->
+      </class> <!-- testcases.loginTestCases -->
+      <class name="testcases.registerTestCases">
+        <test-method is-config="true" signature="ExtentReport()[pri:0, instance:testcases.registerTestCases@2034b64c]" started-at="2024-05-17T10:15:02 IST" name="ExtentReport" finished-at="2024-05-17T10:15:02 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReport -->
+        <test-method is-config="true" signature="browserAndurlLaunch()[pri:0, instance:testcases.registerTestCases@2034b64c]" started-at="2024-05-17T10:15:02 IST" name="browserAndurlLaunch" finished-at="2024-05-17T10:15:07 IST" duration-ms="4428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAndurlLaunch -->
+        <test-method signature="verifyRegisterationWithValidData()[pri:1, instance:testcases.registerTestCases@2034b64c]" started-at="2024-05-17T10:15:07 IST" name="verifyRegisterationWithValidData" finished-at="2024-05-17T10:15:09 IST" duration-ms="1949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterationWithValidData -->
+        <test-method is-config="true" signature="browserAndurlLaunch()[pri:0, instance:testcases.registerTestCases@2034b64c]" started-at="2024-05-17T10:15:09 IST" name="browserAndurlLaunch" finished-at="2024-05-17T10:15:12 IST" duration-ms="3053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAndurlLaunch -->
+        <test-method signature="verifyRegisterationWithBlankData()[pri:2, instance:testcases.registerTestCases@2034b64c]" started-at="2024-05-17T10:15:12 IST" name="verifyRegisterationWithBlankData" finished-at="2024-05-17T10:15:13 IST" duration-ms="855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterationWithBlankData -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testcases.registerTestCases@2034b64c]" started-at="2024-05-17T10:15:24 IST" name="endReport" finished-at="2024-05-17T10:15:25 IST" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testcases.registerTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
