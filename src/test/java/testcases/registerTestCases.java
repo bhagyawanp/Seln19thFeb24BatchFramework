@@ -16,7 +16,7 @@ import resources.commonMethods;
 import resources.testData;
 
 public class registerTestCases extends baseClass {
-
+//changesbygaurav
 	@Test(priority=1)
 	public void verifyRegisterationWithValidData() throws IOException, InterruptedException {
 
